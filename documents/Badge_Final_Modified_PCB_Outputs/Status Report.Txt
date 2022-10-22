@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:09:58 AM On 10/18/2022
+
+Output: Pick Place
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [BADGE_FINAL_Modified.CSPcbDoc]
+   Generated File[Pick Place for BADGE_FINAL_Modified.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:09:59 AM On 10/18/2022

@@ -1,0 +1,363 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+SCHOTTKY18 LED0603           3838.331mil    724.748mil       3838mil        725mil   3838.331mil    667.937mil  B        180.00                
+SCHOTTKY17 LED0603           3738.331mil    724.748mil       3738mil        725mil   3738.331mil    667.937mil  B        180.00                
+SCHOTTKY16 LED0603           3638.331mil    724.748mil       3638mil        725mil   3638.331mil    667.937mil  B        180.00                
+SCHOTTKY15 LED0603           3538.331mil    724.748mil       3538mil        725mil   3538.331mil    667.937mil  B        180.00                
+SCHOTTKY14 LED0603           3438.331mil    724.748mil       3438mil        725mil   3438.331mil    667.937mil  B        180.00                
+SCHOTTKY13 LED0603           3338.331mil    724.748mil       3338mil        725mil   3338.331mil    667.937mil  B        180.00                
+SCHOTTKY12 LED0603           3238.331mil    724.748mil       3238mil        725mil   3238.331mil    667.937mil  B        180.00                
+SCHOTTKY11 LED0603           3138.331mil    724.748mil       3138mil        725mil   3138.331mil    667.937mil  B        180.00                
+SCHOTTKY10 LED0603           3038.331mil    724.748mil       3038mil        725mil   3038.331mil    667.937mil  B        180.00                
+SCHOTTKY9  LED0603           3788.331mil    914.748mil       3788mil        915mil   3788.331mil    857.937mil  B        180.00                
+SCHOTTKY8  LED0603           3688.331mil    914.748mil       3688mil        915mil   3688.331mil    857.937mil  B        180.00                
+SCHOTTKY7  LED0603           3588.331mil    914.748mil       3588mil        915mil   3588.331mil    857.937mil  B        180.00                
+SCHOTTKY6  LED0603           3488.331mil    914.748mil       3488mil        915mil   3488.331mil    857.937mil  B        180.00                
+SCHOTTKY5  LED0603           3388.331mil    914.748mil       3388mil        915mil   3388.331mil    857.937mil  B        180.00                
+SCHOTTKY4  LED0603           3288.331mil    914.748mil       3288mil        915mil   3288.331mil    857.937mil  B        180.00                
+SCHOTTKY3  LED0603           3188.331mil    914.748mil       3188mil        915mil   3188.331mil    857.937mil  B        180.00                
+SCHOTTKY2  LED0603           3088.331mil    914.748mil       3088mil        915mil   3088.331mil    857.937mil  B        180.00                
+SCHOTTKY1  LED0603           2988.331mil    914.748mil       2988mil        915mil   2988.331mil    857.937mil  B        180.00                
+LY 72      LED0603            324.937mil       1737mil    324.937mil       1737mil    365.937mil       1737mil  T          0.00                
+LY 73      LED0603            501.937mil       1737mil    501.937mil       1737mil    542.937mil       1737mil  T          0.00                
+LY 74      LED0603            678.937mil       1737mil    678.937mil       1737mil    719.937mil       1737mil  T          0.00                
+LR 1       LED0603           5639.517mil     3006.8mil   5639.517mil     3006.8mil   5668.509mil   3035.791mil  T         45.00                
+LY 1       LED0603           5291.917mil     3007.8mil   5291.917mil     3007.8mil   5332.917mil     3007.8mil  T        360.00                
+LR 2       LED0603           5765.517mil     3006.8mil   5765.517mil     3006.8mil   5794.509mil   3035.791mil  T         45.00                
+LR 3       LED0603           5891.517mil     3006.8mil   5891.517mil     3006.8mil   5920.509mil   3035.791mil  T         45.00                
+LR 4       LED0603           6017.517mil     3006.8mil   6017.517mil     3006.8mil   6046.509mil   3035.791mil  T         45.00                
+LR 5       LED0603           6143.517mil     3006.8mil   6143.517mil     3006.8mil   6172.509mil   3035.791mil  T         45.00                
+LR 6       LED0603           6269.517mil     3006.8mil   6269.517mil     3006.8mil   6298.509mil   3035.791mil  T         45.00                
+LR 7       LED0603           6395.517mil     3006.8mil   6395.517mil     3006.8mil   6424.509mil   3035.791mil  T         45.00                
+LR 8       LED0603           6521.517mil     3006.8mil   6521.517mil     3006.8mil   6550.509mil   3035.791mil  T         45.00                
+LR 9       LED0603           5639.517mil     2880.8mil   5639.517mil     2880.8mil   5668.509mil   2909.791mil  T         45.00                
+LR 10      LED0603           5765.517mil     2880.8mil   5765.517mil     2880.8mil   5794.509mil   2909.791mil  T         45.00                
+LR 11      LED0603           5891.517mil     2880.8mil   5891.517mil     2880.8mil   5920.509mil   2909.791mil  T         45.00                
+LR 12      LED0603           6017.517mil     2880.8mil   6017.517mil     2880.8mil   6046.509mil   2909.791mil  T         45.00                
+LR 13      LED0603           6143.517mil     2880.8mil   6143.517mil     2880.8mil   6172.509mil   2909.791mil  T         45.00                
+LR 14      LED0603           6269.517mil     2880.8mil   6269.517mil     2880.8mil   6298.509mil   2909.791mil  T         45.00                
+LR 15      LED0603           6395.517mil     2880.8mil   6395.517mil     2880.8mil   6424.509mil   2909.791mil  T         45.00                
+LR 16      LED0603           6521.517mil     2880.8mil   6521.517mil     2880.8mil   6550.509mil   2909.791mil  T         45.00                
+LR 17      LED0603           5639.517mil     2754.8mil   5639.517mil     2754.8mil   5668.509mil   2783.791mil  T         45.00                
+LR 18      LED0603           5765.517mil     2754.8mil   5765.517mil     2754.8mil   5794.509mil   2783.791mil  T         45.00                
+LR 19      LED0603           5891.517mil     2754.8mil   5891.517mil     2754.8mil   5920.509mil   2783.791mil  T         45.00                
+LR 20      LED0603           6017.517mil     2754.8mil   6017.517mil     2754.8mil   6046.509mil   2783.791mil  T         45.00                
+LR 21      LED0603           6143.517mil     2754.8mil   6143.517mil     2754.8mil   6172.509mil   2783.791mil  T         45.00                
+LR 22      LED0603           6269.517mil     2754.8mil   6269.517mil     2754.8mil   6298.509mil   2783.791mil  T         45.00                
+LR 23      LED0603           6395.517mil     2754.8mil   6395.517mil     2754.8mil   6424.509mil   2783.791mil  T         45.00                
+LR 24      LED0603           6521.517mil     2754.8mil   6521.517mil     2754.8mil   6550.509mil   2783.791mil  T         45.00                
+LR 25      LED0603           5639.517mil     2628.8mil   5639.517mil     2628.8mil   5668.509mil   2657.791mil  T         45.00                
+LR 26      LED0603           5765.517mil     2628.8mil   5765.517mil     2628.8mil   5794.509mil   2657.791mil  T         45.00                
+LR 27      LED0603           5891.517mil     2628.8mil   5891.517mil     2628.8mil   5920.509mil   2657.791mil  T         45.00                
+LR 28      LED0603           6017.517mil     2628.8mil   6017.517mil     2628.8mil   6046.509mil   2657.791mil  T         45.00                
+LR 29      LED0603           6143.517mil     2628.8mil   6143.517mil     2628.8mil   6172.509mil   2657.791mil  T         45.00                
+LR 30      LED0603           6269.517mil     2628.8mil   6269.517mil     2628.8mil   6298.509mil   2657.791mil  T         45.00                
+LR 31      LED0603           6395.517mil     2628.8mil   6395.517mil     2628.8mil   6424.509mil   2657.791mil  T         45.00                
+LR 32      LED0603           6521.517mil     2628.8mil   6521.517mil     2628.8mil   6550.509mil   2657.791mil  T         45.00                
+LR 33      LED0603           5639.517mil     2502.8mil   5639.517mil     2502.8mil   5668.509mil   2531.791mil  T         45.00                
+LR 34      LED0603           5765.517mil     2502.8mil   5765.517mil     2502.8mil   5794.509mil   2531.791mil  T         45.00                
+LR 35      LED0603           5891.517mil     2502.8mil   5891.517mil     2502.8mil   5920.509mil   2531.791mil  T         45.00                
+LR 36      LED0603           6017.517mil     2502.8mil   6017.517mil     2502.8mil   6046.509mil   2531.791mil  T         45.00                
+LR 37      LED0603           6143.517mil     2502.8mil   6143.517mil     2502.8mil   6172.509mil   2531.791mil  T         45.00                
+LR 38      LED0603           6269.517mil     2502.8mil   6269.517mil     2502.8mil   6298.509mil   2531.791mil  T         45.00                
+LR 39      LED0603           6395.517mil     2502.8mil   6395.517mil     2502.8mil   6424.509mil   2531.791mil  T         45.00                
+LR 40      LED0603           6521.517mil     2502.8mil   6521.517mil     2502.8mil   6550.509mil   2531.791mil  T         45.00                
+LR 41      LED0603           5639.517mil     2376.8mil   5639.517mil     2376.8mil   5668.509mil   2405.791mil  T         45.00                
+LR 42      LED0603           5765.517mil     2376.8mil   5765.517mil     2376.8mil   5794.509mil   2405.791mil  T         45.00                
+LR 43      LED0603           5891.517mil     2376.8mil   5891.517mil     2376.8mil   5920.509mil   2405.791mil  T         45.00                
+LR 44      LED0603           6017.517mil     2376.8mil   6017.517mil     2376.8mil   6046.509mil   2405.791mil  T         45.00                
+LR 45      LED0603           6143.517mil     2376.8mil   6143.517mil     2376.8mil   6172.509mil   2405.791mil  T         45.00                
+LR 46      LED0603           6269.517mil     2376.8mil   6269.517mil     2376.8mil   6298.509mil   2405.791mil  T         45.00                
+LR 47      LED0603           6395.517mil     2376.8mil   6395.517mil     2376.8mil   6424.509mil   2405.791mil  T         45.00                
+LR 48      LED0603           6521.517mil     2376.8mil   6521.517mil     2376.8mil   6550.509mil   2405.791mil  T         45.00                
+LR 49      LED0603           5639.517mil     2250.8mil   5639.517mil     2250.8mil   5668.509mil   2279.791mil  T         45.00                
+LR 50      LED0603           5765.517mil     2250.8mil   5765.517mil     2250.8mil   5794.509mil   2279.791mil  T         45.00                
+LR 51      LED0603           5891.517mil     2250.8mil   5891.517mil     2250.8mil   5920.509mil   2279.791mil  T         45.00                
+LR 52      LED0603           6017.517mil     2250.8mil   6017.517mil     2250.8mil   6046.509mil   2279.791mil  T         45.00                
+LR 53      LED0603           6143.517mil     2250.8mil   6143.517mil     2250.8mil   6172.509mil   2279.791mil  T         45.00                
+LR 54      LED0603           6269.517mil     2250.8mil   6269.517mil     2250.8mil   6298.509mil   2279.791mil  T         45.00                
+LR 55      LED0603           6395.517mil     2250.8mil   6395.517mil     2250.8mil   6424.509mil   2279.791mil  T         45.00                
+LR 56      LED0603           6521.517mil     2250.8mil   6521.517mil     2250.8mil   6550.509mil   2279.791mil  T         45.00                
+LR 57      LED0603           5639.517mil     2124.8mil   5639.517mil     2124.8mil   5668.509mil   2153.791mil  T         45.00                
+LR 58      LED0603           5765.517mil     2124.8mil   5765.517mil     2124.8mil   5794.509mil   2153.791mil  T         45.00                
+LR 59      LED0603           5891.517mil     2124.8mil   5891.517mil     2124.8mil   5920.509mil   2153.791mil  T         45.00                
+LR 60      LED0603           6017.517mil     2124.8mil   6017.517mil     2124.8mil   6046.509mil   2153.791mil  T         45.00                
+LR 61      LED0603           6143.517mil     2124.8mil   6143.517mil     2124.8mil   6172.509mil   2153.791mil  T         45.00                
+LR 62      LED0603           6269.517mil     2124.8mil   6269.517mil     2124.8mil   6298.509mil   2153.791mil  T         45.00                
+LR 63      LED0603           6395.517mil     2124.8mil   6395.517mil     2124.8mil   6424.509mil   2153.791mil  T         45.00                
+LR 64      LED0603           6521.517mil     2124.8mil   6521.517mil     2124.8mil   6550.509mil   2153.791mil  T         45.00                
+LR 65      LED0603           5639.517mil     1998.8mil   5639.517mil     1998.8mil   5668.509mil   2027.791mil  T         45.00                
+LR 66      LED0603           5765.517mil     1998.8mil   5765.517mil     1998.8mil   5794.509mil   2027.791mil  T         45.00                
+LR 67      LED0603           5891.517mil     1998.8mil   5891.517mil     1998.8mil   5920.509mil   2027.791mil  T         45.00                
+LR 68      LED0603           6017.517mil     1998.8mil   6017.517mil     1998.8mil   6046.509mil   2027.791mil  T         45.00                
+LR 69      LED0603           6143.517mil     1998.8mil   6143.517mil     1998.8mil   6172.509mil   2027.791mil  T         45.00                
+LR 70      LED0603           6269.517mil     1998.8mil   6269.517mil     1998.8mil   6298.509mil   2027.791mil  T         45.00                
+LR 71      LED0603           6395.517mil     1998.8mil   6395.517mil     1998.8mil   6424.509mil   2027.791mil  T         45.00                
+LR 72      LED0603           6521.517mil     1998.8mil   6521.517mil     1998.8mil   6550.509mil   2027.791mil  T         45.00                
+LR 73      LED0603           5639.517mil     1872.8mil   5639.517mil     1872.8mil   5668.509mil   1901.791mil  T         45.00                
+LR 74      LED0603           5765.517mil     1872.8mil   5765.517mil     1872.8mil   5794.509mil   1901.791mil  T         45.00                
+LR 75      LED0603           5891.517mil     1872.8mil   5891.517mil     1872.8mil   5920.509mil   1901.791mil  T         45.00                
+LR 76      LED0603           6017.517mil     1872.8mil   6017.517mil     1872.8mil   6046.509mil   1901.791mil  T         45.00                
+LR 77      LED0603           6143.517mil     1872.8mil   6143.517mil     1872.8mil   6172.509mil   1901.791mil  T         45.00                
+LR 78      LED0603           6269.517mil     1872.8mil   6269.517mil     1872.8mil   6298.509mil   1901.791mil  T         45.00                
+LR 79      LED0603           6395.517mil     1872.8mil   6395.517mil     1872.8mil   6424.509mil   1901.791mil  T         45.00                
+LR 80      LED0603           6521.517mil     1872.8mil   6521.517mil     1872.8mil   6550.509mil   1901.791mil  T         45.00                
+LR 81      LED0603           5639.517mil     1746.8mil   5639.517mil     1746.8mil   5668.509mil   1775.791mil  T         45.00                
+LR 82      LED0603           5765.517mil     1746.8mil   5765.517mil     1746.8mil   5794.509mil   1775.791mil  T         45.00                
+LR 83      LED0603           5891.517mil     1746.8mil   5891.517mil     1746.8mil   5920.509mil   1775.791mil  T         45.00                
+LR 84      LED0603           6017.517mil     1746.8mil   6017.517mil     1746.8mil   6046.509mil   1775.791mil  T         45.00                
+LR 85      LED0603           6143.517mil     1746.8mil   6143.517mil     1746.8mil   6172.509mil   1775.791mil  T         45.00                
+LR 86      LED0603           6269.517mil     1746.8mil   6269.517mil     1746.8mil   6298.509mil   1775.791mil  T         45.00                
+LR 87      LED0603           6395.517mil     1746.8mil   6395.517mil     1746.8mil   6424.509mil   1775.791mil  T         45.00                
+LR 88      LED0603           6521.517mil     1746.8mil   6521.517mil     1746.8mil   6550.509mil   1775.791mil  T         45.00                
+LR 89      LED0603           5639.517mil     1620.8mil   5639.517mil     1620.8mil   5668.509mil   1649.791mil  T         45.00                
+LR 90      LED0603           5765.517mil     1620.8mil   5765.517mil     1620.8mil   5794.509mil   1649.791mil  T         45.00                
+LR 91      LED0603           5891.517mil     1620.8mil   5891.517mil     1620.8mil   5920.509mil   1649.791mil  T         45.00                
+LR 92      LED0603           6017.517mil     1620.8mil   6017.517mil     1620.8mil   6046.509mil   1649.791mil  T         45.00                
+LR 93      LED0603           6143.517mil     1620.8mil   6143.517mil     1620.8mil   6172.509mil   1649.791mil  T         45.00                
+LR 94      LED0603           6269.517mil     1620.8mil   6269.517mil     1620.8mil   6298.509mil   1649.791mil  T         45.00                
+LR 95      LED0603           6395.517mil     1620.8mil   6395.517mil     1620.8mil   6424.509mil   1649.791mil  T         45.00                
+LR 96      LED0603           6521.517mil     1620.8mil   6521.517mil     1620.8mil   6550.509mil   1649.791mil  T         45.00                
+LR 97      LED0603           5639.517mil     1494.8mil   5639.517mil     1494.8mil   5668.509mil   1523.791mil  T         45.00                
+LR 98      LED0603           5765.517mil     1494.8mil   5765.517mil     1494.8mil   5794.509mil   1523.791mil  T         45.00                
+LR 99      LED0603           5891.517mil     1494.8mil   5891.517mil     1494.8mil   5920.509mil   1523.791mil  T         45.00                
+LR 100     LED0603           6017.517mil     1494.8mil   6017.517mil     1494.8mil   6046.509mil   1523.791mil  T         45.00                
+LR 101     LED0603           6143.517mil     1494.8mil   6143.517mil     1494.8mil   6172.509mil   1523.791mil  T         45.00                
+LR 102     LED0603           6269.517mil     1494.8mil   6269.517mil     1494.8mil   6298.509mil   1523.791mil  T         45.00                
+LR 103     LED0603           6395.517mil     1494.8mil   6395.517mil     1494.8mil   6424.509mil   1523.791mil  T         45.00                
+LR 104     LED0603           6521.517mil     1494.8mil   6521.517mil     1494.8mil   6550.509mil   1523.791mil  T         45.00                
+LR 105     LED0603           5639.517mil     1368.8mil   5639.517mil     1368.8mil   5668.509mil   1397.791mil  T         45.00                
+LR 106     LED0603           5765.517mil     1368.8mil   5765.517mil     1368.8mil   5794.509mil   1397.791mil  T         45.00                
+LR 107     LED0603           5891.517mil     1368.8mil   5891.517mil     1368.8mil   5920.509mil   1397.791mil  T         45.00                
+LR 108     LED0603           6017.517mil     1368.8mil   6017.517mil     1368.8mil   6046.509mil   1397.791mil  T         45.00                
+LR 109     LED0603           6143.517mil     1368.8mil   6143.517mil     1368.8mil   6172.509mil   1397.791mil  T         45.00                
+LR 110     LED0603           6269.517mil     1368.8mil   6269.517mil     1368.8mil   6298.509mil   1397.791mil  T         45.00                
+LR 111     LED0603           6395.517mil     1368.8mil   6395.517mil     1368.8mil   6424.509mil   1397.791mil  T         45.00                
+LR 112     LED0603           6521.517mil     1368.8mil   6521.517mil     1368.8mil   6550.509mil   1397.791mil  T         45.00                
+LR 113     LED0603           5639.517mil     1242.8mil   5639.517mil     1242.8mil   5668.509mil   1271.791mil  T         45.00                
+LR 114     LED0603           5765.517mil     1242.8mil   5765.517mil     1242.8mil   5794.509mil   1271.791mil  T         45.00                
+LR 115     LED0603           5891.517mil     1242.8mil   5891.517mil     1242.8mil   5920.509mil   1271.791mil  T         45.00                
+LR 116     LED0603           6017.517mil     1242.8mil   6017.517mil     1242.8mil   6046.509mil   1271.791mil  T         45.00                
+LR 117     LED0603           6143.517mil     1242.8mil   6143.517mil     1242.8mil   6172.509mil   1271.791mil  T         45.00                
+LR 118     LED0603           6269.517mil     1242.8mil   6269.517mil     1242.8mil   6298.509mil   1271.791mil  T         45.00                
+LR 119     LED0603           6395.517mil     1242.8mil   6395.517mil     1242.8mil   6424.509mil   1271.791mil  T         45.00                
+LR 120     LED0603           6521.517mil     1242.8mil   6521.517mil     1242.8mil   6550.509mil   1271.791mil  T         45.00                
+LR 121     LED0603           5639.517mil     1116.8mil   5639.517mil     1116.8mil   5668.509mil   1145.791mil  T         45.00                
+LR 122     LED0603           5765.517mil     1116.8mil   5765.517mil     1116.8mil   5794.509mil   1145.791mil  T         45.00                
+LR 123     LED0603           5891.517mil     1116.8mil   5891.517mil     1116.8mil   5920.509mil   1145.791mil  T         45.00                
+LR 124     LED0603           6017.517mil     1116.8mil   6017.517mil     1116.8mil   6046.509mil   1145.791mil  T         45.00                
+LR 125     LED0603           6143.517mil     1116.8mil   6143.517mil     1116.8mil   6172.509mil   1145.791mil  T         45.00                
+LR 126     LED0603           6269.517mil     1116.8mil   6269.517mil     1116.8mil   6298.509mil   1145.791mil  T         45.00                
+LR 127     LED0603           6395.517mil     1116.8mil   6395.517mil     1116.8mil   6424.509mil   1145.791mil  T         45.00                
+LR 128     LED0603           6521.517mil     1116.8mil   6521.517mil     1116.8mil   6550.509mil   1145.791mil  T         45.00                
+LY 56      LED0603           1124.417mil   2890.834mil   1124.417mil   2890.834mil   1165.417mil   2890.834mil  T          0.00                
+LY 55      LED0603           1711.417mil   2890.834mil   1711.417mil   2890.834mil   1752.417mil   2890.834mil  T          0.00                
+LY 54      LED0603           2298.417mil   2890.834mil   2298.417mil   2890.834mil   2339.417mil   2890.834mil  T          0.00                
+LY 53      LED0603           2885.417mil   2890.834mil   2885.417mil   2890.834mil   2926.417mil   2890.834mil  T          0.00                
+LR 133     LED0603           1124.417mil       2594mil   1124.417mil       2594mil   1165.417mil       2594mil  T          0.00                
+LR 134     LED0603           1711.417mil       2594mil   1711.417mil       2594mil   1752.417mil       2594mil  T          0.00                
+LR 135     LED0603           2298.417mil       2594mil   2298.417mil       2594mil   2339.417mil       2594mil  T          0.00                
+LR 136     LED0603           2885.417mil       2594mil   2885.417mil       2594mil   2926.417mil       2594mil  T          0.00                
+LR 137     LED0603           1122.417mil       1918mil   1122.417mil       1918mil   1163.417mil       1918mil  T          0.00                
+LR 138     LED0603           1709.417mil       1918mil   1709.417mil       1918mil   1750.417mil       1918mil  T          0.00                
+LR 139     LED0603           2298.417mil       1918mil   2298.417mil       1918mil   2339.417mil       1918mil  T          0.00                
+LR 140     LED0603           2888.417mil       1918mil   2888.417mil       1918mil   2929.417mil       1918mil  T          0.00                
+LR 141     LED0603           1122.417mil       1738mil   1122.417mil       1738mil   1163.417mil       1738mil  T          0.00                
+LR 142     LED0603           1709.417mil       1738mil   1709.417mil       1738mil   1750.417mil       1738mil  T          0.00                
+LR 143     LED0603           2299.417mil       1739mil   2299.417mil       1739mil   2340.417mil       1739mil  T          0.00                
+LR 144     LED0603           2887.417mil       1738mil   2887.417mil       1738mil   2928.417mil       1738mil  T          0.00                
+LR 145     LED0603           1122.417mil       1556mil   1122.417mil       1556mil   1163.417mil       1556mil  T          0.00                
+LR 146     LED0603           1709.417mil       1556mil   1709.417mil       1556mil   1750.417mil       1556mil  T          0.00                
+LR 147     LED0603           2299.417mil       1556mil   2299.417mil       1556mil   2340.417mil       1556mil  T          0.00                
+LR 148     LED0603           2887.417mil       1556mil   2887.417mil       1556mil   2928.417mil       1556mil  T          0.00                
+LR 149     LED0603               3523mil       1920mil       3523mil       1920mil       3564mil       1920mil  T        360.00                
+LR 150     LED0603               3522mil       1734mil       3522mil       1734mil       3563mil       1734mil  T          0.00                
+LR 179     LED0603               3278mil       2714mil       3278mil       2714mil       3278mil       2755mil  T         90.00                
+LR 152     LED0603               3576mil       2893mil       3576mil       2893mil       3617mil       2893mil  T        360.00                
+LR 153     LED0603               3520mil       2593mil       3520mil       2593mil       3520mil       2634mil  T         90.00                
+LR 154     LED0603           3035.433mil   1297.063mil   3035.433mil   1297.063mil   3076.433mil   1297.063mil  T          0.00                
+LR 155     LED0603           3194.307mil   1297.063mil   3194.307mil   1297.063mil   3235.307mil   1297.063mil  T          0.00                
+LR 156     LED0603           3352.181mil   1297.063mil   3352.181mil   1297.063mil   3393.181mil   1297.063mil  T          0.00                
+LR 157     LED0603            734.685mil    940.126mil    734.685mil    940.126mil    775.685mil    940.126mil  T          0.00                
+LR 158     LED0603            734.685mil    837.126mil    734.685mil    837.126mil    775.685mil    837.126mil  T          0.00                
+LR 159     LED0603            734.685mil    735.126mil    734.685mil    735.126mil    775.685mil    735.126mil  T          0.00                
+LR 160     LED0603            734.685mil    633.126mil    734.685mil    633.126mil    775.685mil    633.126mil  T          0.00                
+LR 161     LED0603           1200.496mil       1028mil   1200.496mil       1028mil   1241.496mil       1028mil  T          0.00                
+LR 162     LED0603            1501.37mil       1028mil    1501.37mil       1028mil    1542.37mil       1028mil  T          0.00                
+LR 163     LED0603           1802.244mil       1028mil   1802.244mil       1028mil   1843.244mil       1028mil  T          0.00                
+LR 164     LED0603           2103.118mil       1028mil   2103.118mil       1028mil   2144.118mil       1028mil  T          0.00                
+LR 165     LED0603           2521.992mil        840mil   2521.992mil        840mil   2562.992mil        840mil  T          0.00                
+LR 166     LED0603           2822.866mil        840mil   2822.866mil        840mil   2863.866mil        840mil  T          0.00                
+LR 167     LED0603            3123.74mil        840mil    3123.74mil        840mil    3164.74mil        840mil  T          0.00                
+LR 168     LED0603           3424.614mil        840mil   3424.614mil        840mil   3465.614mil        840mil  T          0.00                
+LR 169     LED0603           3832.488mil        840mil   3832.488mil        840mil   3873.488mil        840mil  T          0.00                
+LR 170     LED0603           4133.362mil        840mil   4133.362mil        840mil   4174.362mil        840mil  T          0.00                
+LR 171     LED0603           4434.236mil        840mil   4434.236mil        840mil   4475.236mil        840mil  T          0.00                
+LR 172     LED0603            4735.11mil        840mil    4735.11mil        840mil    4776.11mil        840mil  T          0.00                
+LR 173     LED0603           5142.984mil        840mil   5142.984mil        840mil   5183.984mil        840mil  T          0.00                
+LR 174     LED0603           5443.858mil        840mil   5443.858mil        840mil   5484.858mil        840mil  T          0.00                
+LR 175     LED0603           5748.669mil        840mil   5748.669mil        840mil   5789.669mil        840mil  T          0.00                
+LR 176     LED0603           6045.606mil        840mil   6045.606mil        840mil   6086.606mil        840mil  T          0.00                
+LR 177     LED0603           6372.417mil        778mil   6372.417mil        778mil   6413.417mil        778mil  T          0.00                
+LR 178     LED0603           6372.417mil        663mil   6372.417mil        663mil   6413.417mil        663mil  T          0.00                
+LY 2       LED0603           5291.917mil     2881.8mil   5291.917mil     2881.8mil   5332.917mil     2881.8mil  T        360.00                
+LY 3       LED0603           5291.917mil     2755.8mil   5291.917mil     2755.8mil   5332.917mil     2755.8mil  T        360.00                
+LY 4       LED0603           5291.917mil     2629.8mil   5291.917mil     2629.8mil   5332.917mil     2629.8mil  T        360.00                
+LY 5       LED0603           5291.917mil     2503.8mil   5291.917mil     2503.8mil   5332.917mil     2503.8mil  T        360.00                
+LY 6       LED0603           5291.917mil     2377.8mil   5291.917mil     2377.8mil   5332.917mil     2377.8mil  T        360.00                
+LY 7       LED0603           5291.917mil     2251.8mil   5291.917mil     2251.8mil   5332.917mil     2251.8mil  T        360.00                
+LY 8       LED0603           5291.917mil     2125.8mil   5291.917mil     2125.8mil   5332.917mil     2125.8mil  T        360.00                
+LY 9       LED0603           5291.917mil     1999.8mil   5291.917mil     1999.8mil   5332.917mil     1999.8mil  T        360.00                
+LY 10      LED0603           5291.917mil     1873.8mil   5291.917mil     1873.8mil   5332.917mil     1873.8mil  T        360.00                
+LY 11      LED0603           5291.917mil     1747.8mil   5291.917mil     1747.8mil   5332.917mil     1747.8mil  T        360.00                
+LY 12      LED0603           5291.917mil     1621.8mil   5291.917mil     1621.8mil   5332.917mil     1621.8mil  T        360.00                
+LY 13      LED0603           5291.917mil     1495.8mil   5291.917mil     1495.8mil   5332.917mil     1495.8mil  T        360.00                
+LY 14      LED0603           5291.917mil     1369.8mil   5291.917mil     1369.8mil   5332.917mil     1369.8mil  T        360.00                
+LY 15      LED0603           5291.917mil     1243.8mil   5291.917mil     1243.8mil   5332.917mil     1243.8mil  T        360.00                
+LY 16      LED0603           5291.917mil     1117.8mil   5291.917mil     1117.8mil   5332.917mil     1117.8mil  T        360.00                
+LY 17      LED0603           4627.917mil     3007.8mil   4627.917mil     3007.8mil   4668.917mil     3007.8mil  T        360.00                
+LY 18      LED0603           4627.917mil     2881.8mil   4627.917mil     2881.8mil   4668.917mil     2881.8mil  T        360.00                
+LY 19      LED0603           4627.917mil     2755.8mil   4627.917mil     2755.8mil   4668.917mil     2755.8mil  T        360.00                
+LY 20      LED0603           4627.917mil     2629.8mil   4627.917mil     2629.8mil   4668.917mil     2629.8mil  T        360.00                
+LY 21      LED0603           4627.917mil     2503.8mil   4627.917mil     2503.8mil   4668.917mil     2503.8mil  T        360.00                
+LY 22      LED0603           4627.917mil     2377.8mil   4627.917mil     2377.8mil   4668.917mil     2377.8mil  T        360.00                
+LY 23      LED0603           4627.917mil     2251.8mil   4627.917mil     2251.8mil   4668.917mil     2251.8mil  T        360.00                
+LY 24      LED0603           4627.917mil     2125.8mil   4627.917mil     2125.8mil   4668.917mil     2125.8mil  T        360.00                
+LY 25      LED0603           4627.917mil     1999.8mil   4627.917mil     1999.8mil   4668.917mil     1999.8mil  T        360.00                
+LY 26      LED0603           4627.917mil     1873.8mil   4627.917mil     1873.8mil   4668.917mil     1873.8mil  T        360.00                
+LY 27      LED0603           4627.917mil     1747.8mil   4627.917mil     1747.8mil   4668.917mil     1747.8mil  T        360.00                
+LY 28      LED0603           4627.917mil     1621.8mil   4627.917mil     1621.8mil   4668.917mil     1621.8mil  T        360.00                
+LY 29      LED0603           4627.917mil     1495.8mil   4627.917mil     1495.8mil   4668.917mil     1495.8mil  T        360.00                
+LY 30      LED0603           4627.917mil     1369.8mil   4627.917mil     1369.8mil   4668.917mil     1369.8mil  T        360.00                
+LY 31      LED0603           4627.917mil     1243.8mil   4627.917mil     1243.8mil   4668.917mil     1243.8mil  T        360.00                
+LY 32      LED0603           4627.917mil     1117.8mil   4627.917mil     1117.8mil   4668.917mil     1117.8mil  T        360.00                
+LY 33      LED0603           3894.917mil     3007.8mil   3894.917mil     3007.8mil   3935.917mil     3007.8mil  T        360.00                
+LY 34      LED0603           3894.917mil     2881.8mil   3894.917mil     2881.8mil   3935.917mil     2881.8mil  T        360.00                
+LY 35      LED0603           3894.917mil     2755.8mil   3894.917mil     2755.8mil   3935.917mil     2755.8mil  T        360.00                
+LY 36      LED0603           3894.917mil     2629.8mil   3894.917mil     2629.8mil   3935.917mil     2629.8mil  T        360.00                
+LY 37      LED0603           3894.917mil     2503.8mil   3894.917mil     2503.8mil   3935.917mil     2503.8mil  T        360.00                
+LY 38      LED0603           3894.917mil     2377.8mil   3894.917mil     2377.8mil   3935.917mil     2377.8mil  T        360.00                
+LY 39      LED0603           3894.917mil     2251.8mil   3894.917mil     2251.8mil   3935.917mil     2251.8mil  T        360.00                
+LY 40      LED0603           3894.917mil     2125.8mil   3894.917mil     2125.8mil   3935.917mil     2125.8mil  T        360.00                
+LY 41      LED0603           3894.917mil     1999.8mil   3894.917mil     1999.8mil   3935.917mil     1999.8mil  T        360.00                
+LY 42      LED0603           3894.917mil     1873.8mil   3894.917mil     1873.8mil   3935.917mil     1873.8mil  T        360.00                
+LY 43      LED0603           3894.917mil     1747.8mil   3894.917mil     1747.8mil   3935.917mil     1747.8mil  T        360.00                
+LY 44      LED0603           3894.917mil     1621.8mil   3894.917mil     1621.8mil   3935.917mil     1621.8mil  T        360.00                
+LY 45      LED0603           3894.917mil     1495.8mil   3894.917mil     1495.8mil   3935.917mil     1495.8mil  T        360.00                
+LY 46      LED0603           3894.917mil     1369.8mil   3894.917mil     1369.8mil   3935.917mil     1369.8mil  T        360.00                
+LY 47      LED0603           3894.917mil     1243.8mil   3894.917mil     1243.8mil   3935.917mil     1243.8mil  T        360.00                
+LY 48      LED0603           3894.917mil     1117.8mil   3894.917mil     1117.8mil   3935.917mil     1117.8mil  T        360.00                
+LY 49      LED0603           2887.078mil   3031.567mil   2887.078mil   3031.567mil   2928.078mil   3031.567mil  T        360.00                
+LY 50      LED0603           2300.078mil   3031.567mil   2300.078mil   3031.567mil   2341.078mil   3031.567mil  T        360.00                
+LY 51      LED0603           1712.078mil   3031.567mil   1712.078mil   3031.567mil   1753.078mil   3031.567mil  T        360.00                
+LY 52      LED0603           1125.078mil   3031.567mil   1125.078mil   3031.567mil   1166.078mil   3031.567mil  T        360.00                
+LR 132     LED0603           2728.803mil   2718.315mil   2728.803mil   2718.315mil   2728.803mil   2759.315mil  T         90.00                
+LR 131     LED0603           2141.803mil   2718.315mil   2141.803mil   2718.315mil   2141.803mil   2759.315mil  T         90.00                
+LR 130     LED0603           1550.866mil   2718.315mil   1550.866mil   2718.315mil   1550.866mil   2759.315mil  T         90.00                
+LR 129     LED0603            962.134mil   2718.315mil    962.134mil   2718.315mil    962.134mil   2759.315mil  T         90.00                
+LY 57      LED0603           2885.417mil       2441mil   2885.417mil       2441mil   2926.417mil       2441mil  T          0.00                
+LY 58      LED0603           2298.417mil       2441mil   2298.417mil       2441mil   2339.417mil       2441mil  T          0.00                
+LY 59      LED0603           1711.417mil       2441mil   1711.417mil       2441mil   1752.417mil       2441mil  T          0.00                
+LY 60      LED0603           1124.417mil       2441mil   1124.417mil       2441mil   1165.417mil       2441mil  T          0.00                
+LY 61      LED0603           2885.417mil   2315.937mil   2885.417mil   2315.937mil   2926.417mil   2315.937mil  T          0.00                
+LY 62      LED0603           2298.417mil   2315.937mil   2298.417mil   2315.937mil   2339.417mil   2315.937mil  T          0.00                
+LY 63      LED0603           1711.417mil   2315.937mil   1711.417mil   2315.937mil   1752.417mil   2315.937mil  T          0.00                
+LY 64      LED0603           1124.417mil   2315.937mil   1124.417mil   2315.937mil   1165.417mil   2315.937mil  T          0.00                
+LY 65      LED0603           2885.417mil   2188.874mil   2885.417mil   2188.874mil   2926.417mil   2188.874mil  T          0.00                
+LY 66      LED0603           2298.417mil   2188.874mil   2298.417mil   2188.874mil   2339.417mil   2188.874mil  T          0.00                
+LY 67      LED0603           1711.417mil   2188.874mil   1711.417mil   2188.874mil   1752.417mil   2188.874mil  T          0.00                
+LY 68      LED0603           1124.417mil   2188.874mil   1124.417mil   2188.874mil   1165.417mil   2188.874mil  T          0.00                
+LY 69      LED0603            678.937mil       1917mil    678.937mil       1917mil    719.937mil       1917mil  T          0.00                
+LY 70      LED0603            501.937mil       1917mil    501.937mil       1917mil    542.937mil       1917mil  T          0.00                
+LY 71      LED0603            324.937mil       1917mil    324.937mil       1917mil    365.937mil       1917mil  T          0.00                
+LY 75      LED0603            324.937mil       1556mil    324.937mil       1556mil    365.937mil       1556mil  T          0.00                
+LY 76      LED0603            501.937mil       1556mil    501.937mil       1556mil    542.937mil       1556mil  T          0.00                
+LY 77      LED0603            678.937mil       1556mil    678.937mil       1556mil    719.937mil       1556mil  T          0.00                
+LR 183     LED0603           3511.646mil   1296.567mil   3511.646mil   1296.567mil   3552.646mil   1296.567mil  T          0.00                
+LR 180     LED0603            324.614mil   1297.063mil    324.614mil   1297.063mil    365.614mil   1297.063mil  T          0.00                
+LR 181     LED0603            502.488mil   1297.063mil    502.488mil   1297.063mil    543.488mil   1297.063mil  T          0.00                
+LR 182     LED0603            680.362mil   1297.063mil    680.362mil   1297.063mil    721.362mil   1297.063mil  T          0.00                
+LY 82      LED0603            947.433mil   1297.063mil    947.433mil   1297.063mil    988.433mil   1297.063mil  T          0.00                
+LY 83      LED0603           1101.307mil   1297.063mil   1101.307mil   1297.063mil   1142.307mil   1297.063mil  T          0.00                
+LY 84      LED0603           1255.181mil   1297.063mil   1255.181mil   1297.063mil   1296.181mil   1297.063mil  T          0.00                
+LY 85      LED0603           1407.992mil   1297.063mil   1407.992mil   1297.063mil   1448.992mil   1297.063mil  T          0.00                
+LY 86      LED0603            1632.74mil   1297.063mil    1632.74mil   1297.063mil    1673.74mil   1297.063mil  T          0.00                
+LY 87      LED0603           1786.614mil   1297.063mil   1786.614mil   1297.063mil   1827.614mil   1297.063mil  T          0.00                
+LY 88      LED0603           1940.488mil   1297.063mil   1940.488mil   1297.063mil   1981.488mil   1297.063mil  T          0.00                
+LY 89      LED0603           2094.362mil   1297.063mil   2094.362mil   1297.063mil   2135.362mil   1297.063mil  T          0.00                
+LY 78      LED0603           2319.047mil   1297.063mil   2319.047mil   1297.063mil   2360.047mil   1297.063mil  T          0.00                
+LY 79      LED0603           2472.921mil   1297.063mil   2472.921mil   1297.063mil   2513.921mil   1297.063mil  T          0.00                
+LY 80      LED0603           2626.795mil   1297.063mil   2626.795mil   1297.063mil   2667.795mil   1297.063mil  T          0.00                
+LY 81      LED0603           2780.669mil   1297.063mil   2780.669mil   1297.063mil   2821.669mil   1297.063mil  T          0.00                
+SW13       key4p             2501.696mil    374.472mil   2501.696mil    374.473mil   2590.279mil    216.992mil  T         90.00 tactile key    
+SW12       key4p              2816.57mil    374.472mil    2816.57mil    374.473mil   2905.153mil    216.992mil  T         90.00 tactile key    
+SW11       key4p             3131.507mil    374.472mil   3131.507mil    374.473mil    3220.09mil    216.992mil  T         90.00 tactile key    
+SW10       key4p             3446.381mil    374.472mil   3446.381mil    374.473mil   3534.964mil    216.992mil  T         90.00 tactile key    
+SW6        key4p             4757.877mil    374.472mil   4757.877mil    374.473mil    4846.46mil    216.992mil  T         90.00 tactile key    
+SW7        key4p             4443.003mil    374.472mil   4443.003mil    374.473mil   4531.586mil    216.992mil  T         90.00 tactile key    
+SW8        key4p             4128.066mil    374.472mil   4128.066mil    374.473mil   4216.649mil    216.992mil  T         90.00 tactile key    
+SW9        key4p             3813.192mil    374.472mil   3813.192mil    374.473mil   3901.775mil    216.992mil  T         90.00 tactile key    
+SW5        key4p             5124.688mil    374.472mil   5124.688mil    374.473mil   5213.271mil    216.992mil  T         90.00 tactile key    
+SW4        key4p             5439.562mil    374.472mil   5439.562mil    374.473mil   5528.145mil    216.992mil  T         90.00 tactile key    
+SW3        key4p             5754.499mil    374.472mil   5754.499mil    374.473mil   5843.082mil    216.992mil  T         90.00 tactile key    
+SW2        key4p             6069.373mil    374.472mil   6069.373mil    374.473mil   6157.956mil    216.992mil  T         90.00 tactile key    
+SW1        key4p             6435.121mil    374.472mil   6435.121mil    374.473mil   6523.704mil    216.992mil  T         90.00 tactile key    
+SW14       key4p             2117.885mil    374.472mil   2117.885mil    374.473mil   2206.468mil    216.992mil  T         90.00 tactile key    
+SW15       key4p             1803.011mil    374.472mil   1803.011mil    374.473mil   1891.594mil    216.992mil  T         90.00 tactile key    
+SW16       key4p             1488.074mil    374.472mil   1488.074mil    374.473mil   1576.657mil    216.992mil  T         90.00 tactile key    
+SW17       key4p               1173.2mil    374.472mil     1173.2mil    374.473mil   1261.783mil    216.992mil  T         90.00 tactile key    
+SW18       key4p              815.326mil    374.472mil    815.326mil    374.473mil    903.909mil    216.992mil  T         90.00 tactile key    
+SW20       key4p             3427.945mil   2828.767mil   3427.945mil   2828.767mil   3270.465mil   2917.349mil  B        360.00 tactile key    
+U3         LED0603           3720.197mil   1323.499mil   3720.197mil   1323.499mil   3608.976mil   1361.885mil  B        180.00 74HC138        
+U1         PCBComponent_1    3426.417mil       2150mil   3426.417mil       2150mil   3202.008mil   2244.488mil  B         90.00 PIC24FJ256GA704
+U2         LED0603           3138.197mil   1323.499mil   3138.197mil   1323.499mil   3026.976mil   1361.885mil  B        180.00 74hc138        
+R14        TANTALUM_KEMET_C   3016.917mil       1763mil   3046.417mil       1763mil   2987.417mil       1763mil  B        180.00 82R            
+R15        TANTALUM_KEMET_C   3016.917mil       1842mil   3046.417mil       1842mil   2987.417mil       1842mil  B        180.00 82R            
+R16        TANTALUM_KEMET_C   3016.917mil       1921mil   3046.417mil       1921mil   2987.417mil       1921mil  B        180.00 82R            
+C1         TANTALUM_KEMET_C   3016.917mil       2021mil   3046.417mil       2021mil   2987.417mil       2021mil  B        180.00 100nF          
+R32        TANTALUM_KEMET_C   3016.917mil       2358mil   3046.417mil       2358mil   2987.417mil       2358mil  B        180.00 150R           
+R41        TANTALUM_KEMET_C   3016.917mil       2282mil   3046.417mil       2282mil   2987.417mil       2282mil  B        180.00 18K            
+R31        TANTALUM_KEMET_C   3016.917mil       2206mil   3046.417mil       2206mil   2987.417mil       2206mil  B        180.00 150R           
+R22        TANTALUM_KEMET_C   3016.917mil       2123mil   3046.417mil       2123mil   2987.417mil       2123mil  B        180.00 2K7            
+C5         TANTALUM_KEMET_C   3383.417mil     1760.5mil   3383.417mil       1790mil   3383.417mil       1731mil  B        270.00 10uF           
+R11        TANTALUM_KEMET_C   3302.417mil     1760.5mil   3302.417mil       1790mil   3302.417mil       1731mil  B        270.00 82R            
+R12        TANTALUM_KEMET_C   3221.417mil     1760.5mil   3221.417mil       1790mil   3221.417mil       1731mil  B        270.00 82R            
+R13        TANTALUM_KEMET_C   3140.417mil     1760.5mil   3140.417mil       1790mil   3140.417mil       1731mil  B        270.00 82R            
+R20        TANTALUM_KEMET_C   3471.417mil     1760.5mil   3471.417mil       1790mil   3471.417mil       1731mil  B        270.00 2K7            
+R17        TANTALUM_KEMET_C   3549.417mil     1760.5mil   3549.417mil       1790mil   3549.417mil       1731mil  B        270.00 82R            
+R8         TANTALUM_KEMET_C   3627.417mil     1760.5mil   3627.417mil       1790mil   3627.417mil       1731mil  B        270.00 82R            
+R7         TANTALUM_KEMET_C   3705.417mil     1760.5mil   3705.417mil       1790mil   3705.417mil       1731mil  B        270.00 82R            
+R29        TANTALUM_KEMET_C   3820.917mil       2045mil   3791.417mil       2045mil   3850.417mil       2045mil  B        360.00 150R           
+R30        TANTALUM_KEMET_C   3820.917mil       1961mil   3791.417mil       1961mil   3850.417mil       1961mil  B        360.00 150R           
+R9         TANTALUM_KEMET_C   3820.917mil       1875mil   3791.417mil       1875mil   3850.417mil       1875mil  B        360.00 82R            
+R10        TANTALUM_KEMET_C   3820.917mil       1795mil   3791.417mil       1795mil   3850.417mil       1795mil  B        360.00 82R            
+C3         TANTALUM_KEMET_C   3820.917mil       2125mil   3791.417mil       2125mil   3850.417mil       2125mil  B        360.00 100nF          
+R6         TANTALUM_KEMET_C   3820.917mil       2210mil   3791.417mil       2210mil   3850.417mil       2210mil  B        360.00 82R            
+R5         TANTALUM_KEMET_C   3820.917mil       2288mil   3791.417mil       2288mil   3850.417mil       2288mil  B        360.00 82R            
+R4         TANTALUM_KEMET_C   3820.917mil       2366mil   3791.417mil       2366mil   3850.417mil       2366mil  B        360.00 82R            
+LR 151     LED0603               4964mil       1995mil       4964mil       1995mil       5005mil       1995mil  T        360.00                
+R34        TANTALUM_KEMET_C   3151.417mil     3079.5mil   3151.417mil       3050mil   3151.417mil       3109mil  B         90.00 18K            
+R35        TANTALUM_KEMET_C   3235.417mil     3079.5mil   3235.417mil       3050mil   3235.417mil       3109mil  B         90.00 18K            
+R36        TANTALUM_KEMET_C   3319.417mil     3079.5mil   3319.417mil       3050mil   3319.417mil       3109mil  B         90.00 18K            
+R39        TANTALUM_KEMET_C   3718.417mil     3079.5mil   3718.417mil       3050mil   3718.417mil       3109mil  B         90.00 18K            
+R28        TANTALUM_KEMET_C   3640.417mil     3079.5mil   3640.417mil       3050mil   3640.417mil       3109mil  B         90.00 150R           
+R38        TANTALUM_KEMET_C   3562.417mil     3079.5mil   3562.417mil       3050mil   3562.417mil       3109mil  B         90.00 18K            
+R37        TANTALUM_KEMET_C   3475.417mil     3079.5mil   3475.417mil       3050mil   3475.417mil       3109mil  B         90.00 18K            
+R27        TANTALUM_KEMET_C   3397.417mil     3079.5mil   3397.417mil       3050mil   3397.417mil       3109mil  B         90.00 150R           
+R40        TANTALUM_KEMET_C   3796.417mil     3079.5mil   3796.417mil       3050mil   3796.417mil       3109mil  B         90.00 18K            
+R33        TANTALUM_KEMET_C   3075.417mil     3079.5mil   3075.417mil       3050mil   3075.417mil       3109mil  B         90.00 18K            
+R23        TANTALUM_KEMET_C   3053.417mil     2565.5mil   3053.417mil       2536mil   3053.417mil       2595mil  B         90.00 150R           
+R19        TANTALUM_KEMET_C   3774.417mil     2565.5mil   3774.417mil       2536mil   3774.417mil       2595mil  B         90.00 2K7            
+R1         TANTALUM_KEMET_C   3373.417mil     2565.5mil   3373.417mil       2536mil   3373.417mil       2595mil  B         90.00 82R            
+R2         TANTALUM_KEMET_C   3450.417mil     2565.5mil   3450.417mil       2536mil   3450.417mil       2595mil  B         90.00 82R            
+R3         TANTALUM_KEMET_C   3527.417mil     2565.5mil   3527.417mil       2536mil   3527.417mil       2595mil  B         90.00 82R            
+C2         TANTALUM_KEMET_C   3617.417mil     2565.5mil   3617.417mil       2536mil   3617.417mil       2595mil  B         90.00 100nF          
+R18        TANTALUM_KEMET_C   3695.417mil     2565.5mil   3695.417mil       2536mil   3695.417mil       2595mil  B         90.00 2K7            
+R26        TANTALUM_KEMET_C   3288.417mil     2565.5mil   3288.417mil       2536mil   3288.417mil       2595mil  B         90.00 150R           
+R25        TANTALUM_KEMET_C   3211.417mil     2565.5mil   3211.417mil       2536mil   3211.417mil       2595mil  B         90.00 150R           
+R24        TANTALUM_KEMET_C   3129.417mil     2565.5mil   3129.417mil       2536mil   3129.417mil       2595mil  B         90.00 150R           
+C4         TANTALUM_KEMET_C       3402mil     1365.5mil       3402mil       1336mil       3402mil       1395mil  B         90.00 10uF           
+R42        TANTALUM_KEMET_C   3016.917mil       2434mil   3046.417mil       2434mil   2987.417mil       2434mil  B        180.00 18K            
+SW19       key4p              448.326mil    374.472mil    448.326mil    374.473mil    536.909mil    216.992mil  T         90.00 tactile key    
+R21        TANTALUM_KEMET_C   3820.917mil       2442mil   3791.417mil       2442mil   3850.417mil       2442mil  B        360.00 2K7            
+

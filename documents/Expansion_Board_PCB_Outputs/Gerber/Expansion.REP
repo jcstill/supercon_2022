@@ -1,0 +1,200 @@
+*************************************************************
+FileName = Expansion.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : Expansion.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Expansion.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Expansion.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Expansion.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Expansion.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D30
+    D31
+    D32
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Expansion.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D30
+    D31
+    D32
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Expansion.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Expansion.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D18
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Outline
+      File : Expansion.Outline
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 3
+      File : Expansion.GM3
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Assembly Text Top
+      File : Expansion.Assembly Text Top
+
+    Adding Layer      : Assembly Text Top
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Assembly Text Bottom
+      File : Expansion.Assembly Text Bottom
+
+    Adding Layer      : Assembly Text Bottom
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Assembly Top
+      File : Expansion.Assembly Top
+
+    Adding Layer      : Assembly Top
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Assembly Bottom
+      File : Expansion.Assembly Bottom
+
+    Adding Layer      : Assembly Bottom
+
+
+Used DCodes :
+*************************************************************
+

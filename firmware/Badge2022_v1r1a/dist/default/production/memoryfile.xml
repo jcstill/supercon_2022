@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/production/Badge2022_v1r1.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>16384</length>
+      <used>482</used>
+      <free>15902</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>263424</length>
+      <used>26967</used>
+      <free>236457</free>
+    </memory>
+  </executable>
+</project>
