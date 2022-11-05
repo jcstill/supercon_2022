@@ -3,21 +3,26 @@ init:
         mov     R0,0xC          ; 0x90C         // set R0 to 0xC
         mov     [0xF0],R0       ; 0xCF0         // move value in R0 to data address 0xF0
         
-        ; write random data to the display
-        mov     R0,[0xF0]       ; 0xDF0         // move value in data address 0xF0 to R0
-        mov     R9,0x6          ; 0x996         // set R9 to 0x6
-        xor     R9,R0           ; 0x790         // xor the data in R9 and the data in R0
-        mov     R6,0xC          ; 0x96C         // load C to R6
+        ; init for random data
+        mov     R0,[0xF0]       ; 0xDF0         // get the display address
+        mov     R9,0x6          ; 0x996         // move 0x6 address to R9
+        xor     R9,R0           ; 0x790         // xor the display address in R0 and 0x6 in R0 to get the "procssing address" (0xA in this case)
+        mov     R6,R0           ; 0x860         // move processing address into R6
         mov     R5,0x0          ; 0x950         // load 0 to R5
 
-randloop:
+        ; write random data to the display
         mov     R0,[0xFF]       ; 0xDFF         // read from RNG
         mov     [R6:R5],R0      ; 0xA64         // write to cell (in memory)
-        
         inc     R5              ; 0x025         // increment R5
         skip    c,1             ; 0x0F1         // skip if carry
-        jr      -5              ; 0xFFB
-        ;GOTO    randloop
+        jr      -5              ; 0xFFB         // jump back to do the rest of the first page
+        inc     R6              ; 0x026         // increment R6
+        mov     R0,[0xFF]       ; 0xDFF         // read from RNG
+        mov     [R6:R5],R0      ; 0xA64         // write to cell (in memory)
+        inc     R5              ; 0x025         // increment R5
+        skip    c,1             ; 0x0F1         // skip if carry
+        jr      -5              ; 0xFFB         // jump back to do the rest of the second page
+        
         ret     R0,0
 
 
