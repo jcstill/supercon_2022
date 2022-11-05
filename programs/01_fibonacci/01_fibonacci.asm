@@ -22,7 +22,7 @@
         // set the led matrix to display page C+1 and C
         // this will be our "MSB" (C+1) and "LSB" (C)
         mov     R0,0xC          // 0x90C        // set R0 to 0xC
-        mov     [0xF0],R0       // 0xCF0        // move value in R0 to data address 0xF0
+        mov     [0xF0],R0       // 0xCF0        // move value in R0 to data address 0xF0 (screen)
         // clear the first line on the display
         mov     R0,0x0          // 0x900        // set R0 to 0x0
         mov     [0xC0],R0       // 0xCC0        // move value in R0 to data address 0xC0
@@ -35,6 +35,9 @@
         mov     [0x22],R0       // 0xC22        // move value in R0 to data address 0x22
         mov     R0,0x1          // 0x911        // set R0 to 0x1
         mov     [0x23],R0       // 0xC23        // move value in R0 to data address 0x23
+
+        mov     R0,0x9          // 0x909        // set R0 to 0x9
+        mov     [0xF1],R0       // 0xCF1        // move value in R0 to data address 0xF1 (clock)
 
 // start loop
         // jump here to get next number in sequence
