@@ -44,7 +44,7 @@ init:
 ;        mov     R9,0x6          ; 0x996         // set R9 to 0x6
 ;        xor     R9,R0           ; 0x790         // xor the data in R9 and the data in R0
 ;
-;
+;main:
 ;        ; do frame proccessing here - soubroutine??
 ;
 ;
@@ -63,17 +63,45 @@ init:
 ; R9 - dest
 ; R8 - row
 ; R7 - col
-; R6 - page n
-; R5 - page n + 1
+; R6 - page offset
 iter:
-        mov R8, 0         ; init row reg
-        mov R7, 0         ; init col reg
-        mov R0, [0xF0]    ; move from SFR to R0 req'd
-        mov R6, R0        ; set page n reg
-        mov R5, R0        ; set page n + 1 reg with n
-        inc R5            ;   and incr
-        or R0, 0          ; just set carry flag HACK
-        
+        mov     R8, 0           ; init row in R8
+        mov     R7, 0           ; init col in R7
+        mov     R0, [0xF0]      ; move from SFR (page) to R0
+iter_row:
+        or      R0, 0           ; just set carry flag HACK
+iter_bit1:
+        rrc     R7              ; Roll R7 with carry
+        skip    nc,1            ; skip if jump if looped
+        jr      6
+        mov     R6,1            ; start with page n + 1
+        GOSUB   rules           ; jump to ckeck bit in page n + 1
+        GOTO    iter_bit1       ; jump back to top
+iter_bit0:
+        rrc     R7              ; Roll R7 with carry
+        skip    nc,1            ; skip if jump if looped
+        jr      6
+        mov     R6,0            ; page n
+        GOSUB   rules           ; jump to ckeck bit in page n
+        GOTO    iter_bit0       ; jump back to top
+        inc     R7              ; increment col
+        skip    c,2             ; skip GOTO if cary
+        GOTO    iter_row        ; GOTO top of row iteration
+        ret     R0,0            ; end - change to return from subroutine
+
+
+
 ; rules subroutine
 rules:
-        jr 1        ; placholder
+        jr 0            ; placholder
+
+
+
+        mov     R0,[R5:R8]      ; get data at memory
+        and     R0,R7           ; check if bit is set
+        GOSUB   rules           ; jump to check bit
+        skip    NZ, 1
+        jr      -#
+
+
+
