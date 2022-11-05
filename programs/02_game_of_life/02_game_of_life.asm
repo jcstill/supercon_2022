@@ -58,8 +58,22 @@ init:
 ;        mov     PCM,0x0         ; 0x9E0         // set PCM to 0x0
 ;        mov     PCL,0x2         ; 0x9D2         // set PCL to 0x2
 
-
-
-
-
-
+; iter subroutine
+; [0xF0] - page n
+; R9 - dest
+; R8 - row
+; R7 - col
+; R6 - page n
+; R5 - page n + 1
+iter:
+        mov R8, 0
+        mov R7, 0
+        mov R6, [0xF0]
+        mov R5, [0xF0]
+        inc R5
+        bset R7 0
+        rrc R7
+        
+; rules subroutine
+rules:
+        jr 1        ; placholder
