@@ -66,13 +66,13 @@ init:
 ; R6 - page n
 ; R5 - page n + 1
 iter:
-        mov R8, 0
-        mov R7, 0
-        mov R6, [0xF0]
-        mov R5, [0xF0]
-        inc R5
-        bset R7 0
-        rrc R7
+        mov R8, 0         ; init row reg
+        mov R7, 0         ; init col reg
+        mov R0, [0xF0]    ; move from SFR to R0 req'd
+        mov R6, R0        ; set page n reg
+        mov R5, R0        ; set page n + 1 reg with n
+        inc R5            ;   and incr
+        or R0, 0          ; just set carry flag HACK
         
 ; rules subroutine
 rules:
