@@ -99,26 +99,40 @@ iter_bit0:
         ret     R0,0            ; end - change to return from subroutine
 
 
-
 ; rules subroutine
+; R2 - edge cond nibble (b3 b2 b1 b0) -> (Top Bottom Left Right)
 rules:
-        ;jr 0            ; placholder
+        mov     R2,0            ; init edge cond nibble
 
-        ;mov     R0,[R5:R8]      ; get data at memory
-        ;and     R0,R7           ; check if bit is set
-        ;GOSUB   rules           ; jump to check bit
-        ;skip    NZ, 1
-        ;jr      -#
+        ; check top edge cond
+        mov     R0,R8           ; move row into R0
+        cp      z,0             ; check top edge cond
+        skip    nz,2            ; skip 2 inst if not zero
+        bset    R2,3            ; set top edge cond bit
+        jr      3               ; jump to page offset check
 
-        mov     R0,[0xF0]
-        add     R0,R6
-        mov     R3,R0
-        mov     R0,[R3:R8]
-        or      R0, r7
-        mov     [R3:R8],R0
+        ; check bottom edge cond
+        cp      z,15            ; check bottom edge cond
+        skip    nz,1            ; skip 1 inst if not zero
+        bset    R2,2            ; set bottom edge cond bit
 
+        ; dispatch based on page offset
+        mov     R0,R6           ; move page offset intio R0
+        cp      z,1             ; check page offset
+        skip    z,1             ; skip 1 inst if zero
+        jr      5               ; jump to check right edge cond
+        
+        ; check left edge cond
+        mov     R0,R7           ; move col into R0
+        cp      R0,8            ; check left edge cond
+        skip    nz,2            ; skip 2 inst if not zero
+        bset    R2,1            ; set left edge cond
+        jr      3               ; jump to applying rules
+
+        ; check right edge cond
+        cp      R0,1            ; check right edge cond
+        skip    nz,1            ; skip 1 inst if not zero
+        bset    R2,0            ; set right edge cond
+
+        ; applying rules
         ret     R0,0
-
-
-
-
