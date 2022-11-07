@@ -2,6 +2,7 @@
         mov R0,8
         mov [0xf1],R0
         GOTO init
+
 setter: ;(temporary)
         mov     R0,[0xF0]
         add     R0,R6
@@ -136,4 +137,59 @@ rules:
         bset    R2,0            ; set right edge cond
 
         ; applying rules
+        GOSUB   apply_rules
+        ret     R0,0
+
+; apply_rules subroutine
+; R5 - neighbor count accumulator
+apply_rules:
+        mov     R5, 0           ; init acc reg
+
+        ; dispatch on edge cond reg
+        mov     R0,R2           ; mov edge cond nibble into R0
+        cp      R0,0b1010       ; top-left?
+        skip    nz,2            ; skip 2 inst if not zero
+        GOTO    top_left        ; GOTO top_left
+        cp      R0,0b1000       ; top?
+        skip    nz,2            ; skip 2 inst if not zero
+        GOTO    top             ; GOTO top
+        cp      R0,0b1001       ; top-right?
+        skip    nz,2            ; skip 2 inst if not zero
+        GOTO    top_right       ; GOTO top_right
+        cp      R0,0b0010       ; left?
+        skip    nz,2            ; skip 2 inst if not zero
+        GOTO    left            ; GOTO left
+        cp      R0,0b0000       ; center?
+        skip    nz,2            ; skip 2 inst if not zero
+        GOTO    center          ; GOTO center
+        cp      R0,0b0001       ; right?
+        skip    nz,2            ; skip 2 inst if not zero
+        GOTO    right           ; GOTO right
+        cp      R0,0b0110       ; bottom-left?
+        skip    nz,2            ; skip 2 inst if not zero
+        GOTO    bottom_left     ; GOTO bottom_left
+        cp      R0,0b0100       ; bottom?
+        skip    nz,2            ; skip 2 inst if not zero
+        GOTO    bottom          ; GOTO bottom
+        GOTO    bottom_right    ; GOTO bottom_right
+
+top_left:
+
+top:
+
+top_right:
+
+left:
+
+center:
+
+right:
+
+bottom_left:
+
+bottom:
+
+bottom_right:
+
+        ; apply_rules return
         ret     R0,0
