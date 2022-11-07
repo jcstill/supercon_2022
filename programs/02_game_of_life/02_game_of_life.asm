@@ -136,60 +136,33 @@ rules:
         skip    nz,1            ; skip 1 inst if not zero
         bset    R2,0            ; set right edge cond
 
-        ; applying rules
-        GOSUB   apply_rules
+        ; apply rules
+        GOSUB   apply
         ret     R0,0
 
-; apply_rules subroutine
-; R5 - neighbor count accumulator
-apply_rules:
-        mov     R5, 0           ; init acc reg
-
-        ; dispatch on edge cond reg
-        mov     R0,R2           ; mov edge cond nibble into R0
-        cp      R0,0b1010       ; top-left?
-        skip    nz,2            ; skip 2 inst if not zero
-        GOTO    top_left        ; GOTO top_left
-        cp      R0,0b1000       ; top?
-        skip    nz,2            ; skip 2 inst if not zero
-        GOTO    top             ; GOTO top
-        cp      R0,0b1001       ; top-right?
-        skip    nz,2            ; skip 2 inst if not zero
-        GOTO    top_right       ; GOTO top_right
-        cp      R0,0b0010       ; left?
-        skip    nz,2            ; skip 2 inst if not zero
-        GOTO    left            ; GOTO left
-        cp      R0,0b0000       ; center?
-        skip    nz,2            ; skip 2 inst if not zero
-        GOTO    center          ; GOTO center
-        cp      R0,0b0001       ; right?
-        skip    nz,2            ; skip 2 inst if not zero
-        GOTO    right           ; GOTO right
-        cp      R0,0b0110       ; bottom-left?
-        skip    nz,2            ; skip 2 inst if not zero
-        GOTO    bottom_left     ; GOTO bottom_left
-        cp      R0,0b0100       ; bottom?
-        skip    nz,2            ; skip 2 inst if not zero
-        GOTO    bottom          ; GOTO bottom
-        GOTO    bottom_right    ; GOTO bottom_right
-
-top_left:
-
-top:
-
-top_right:
-
-left:
-
-center:
-
-right:
-
-bottom_left:
-
-bottom:
-
-bottom_right:
-
-        ; apply_rules return
+; apply subroutine
+; 1. Registers E0 through E5
+;
+;                  Page n+1    (Top)    Page n
+;           ┌────┬────┬────┬────┐┌────┬────┬────┬────┐
+;        E0 │ b3*│ b2*│ b1 │ b0 ││ b3 │ b2 │ b1 │ b0*│ E1
+;           ├────┼────┼────┼────┤├────┼────┼────┼────┤
+; (Left) E2 │ b3*│ b2*│ b1 │ b0 ││ b3 │ b2 │ b1 │ b0*│ E3 (Right)   <-- row
+;           ├────┼────┼────┼────┤├────┼────┼────┼────┤
+;        E4 │ b3*│ b2*│ b1 │ b0 ││ b3 │ b2 │ b1 │ b0*│ E5
+;           └────┴────┴────┴────┘└────┴────┴────┴────┘
+;             ∧              (Bottom)
+;             │
+;            col
+;
+; 2. Registers E2 and E3 -> current row we are iterating over
+; 3. Registers E0 and E1 -> row above current row
+;    a. (Wrap) If row = 0, then E0 and E1 represent row 15
+; 4. Registers E4 and E5 -> row below current row
+;    a. (Wrap) If row = 15, then E4 and E5 represent row 0
+; 5. Apply mask to all six registers based on col, offset, and edge cond
+; 6. Use popcount subroutine to count neighboring bits in all 6 registers
+; 7. Apply rules to determine bit value in destination buffer (pages)
+apply:
+        ; apply subroutine return
         ret     R0,0
