@@ -1,105 +1,71 @@
 ; mask_tbl
-; 1. Page 7 contains bit-masks for bit-status for col
-; 1. Page 6 contains left nibble mask for current row
-; 2. Page 5 contains right nibble mask for current row
-; 3. Page 4 contains left nibble masks for above/below row
-; 4. Page 3 contains right nibble masks for above/below row
-; 3. Row in mask table corresponds to column
+; 1. Page 5 contains col bit-masks for bit-status
+; 2. Page 4 contains left nibble masks
+; 3. Page 3 contains right nibble masks
+; 4. Row in mask table corresponds to column
 mask_tbl:
         ; col 8 masks
         mov     R0,0b1000       ; col bit-mask
-        mov     [7:8],R0
-        mov     R0,0b0100       ; left nibble mask current row
-        mov     [6:8],R0
-        mov     R0,0b0001       ; right nibble mask current row
         mov     [5:8],R0
-        mov     R0,0b1100       ; left nibble mask above/below row
+        mov     R0,0b1100       ; left nibble mask
         mov     [4:8],R0
-        mov     R0,0b0001       ; right nibble mask above/below row
+        mov     R0,0b0001       ; right nibble mask
         mov     [3:8],R0
 
         ; column 7 masks
         mov     R0,0b0100       ; col bit-mask
-        mov     [7:7],R0
-        mov     R0,0b1010       ; left nibble mask current row
-        mov     [6:7],R0
-        mov     R0,0b0000       ; right nibble mask current row
         mov     [5:7],R0
-        mov     R0,0b1110       ; left nibble mask above/below row
+        mov     R0,0b1110       ; left nibble mask
         mov     [4:7],R0
-        mov     R0,0b0000       ; right nibble mask above/below row
+        mov     R0,0b0000       ; right nibble mask
         mov     [3:7],R0
 
         ; column 6 masks
         mov     R0,0b0010       ; col bit-mask
-        mov     [7:6],R0
-        mov     R0,0b0101       ; left nibble mask current row
-        mov     [6:6],R0
-        mov     R0,0b0000       ; right nibble mask current row
         mov     [5:6],R0
-        mov     R0,0b0111       ; left nibble mask above/below row
+        mov     R0,0b0111       ; left nibble mask
         mov     [4:6],R0
-        mov     R0,0b0000       ; right nibble mask above/below row
+        mov     R0,0b0000       ; right nibble mask
         mov     [3:6],R0
 
         ; column 5 masks
         mov     R0,0b0001       ; col bit-mask
-        mov     [7:5],R0
-        mov     R0,0b0010       ; left nibble mask current row
-        mov     [6:5],R0
-        mov     R0,0b1000       ; right nibble mask current row
         mov     [5:5],R0
-        mov     R0,0b0011       ; left nibble mask above/below row
+        mov     R0,0b0011       ; left nibble mask
         mov     [4:5],R0
-        mov     R0,0b1000       ; right nibble mask above/below row
+        mov     R0,0b1000       ; right nibble mask
         mov     [3:5],R0
 
         ; column 4 masks
         mov     R0,0b1000       ; col bit-mask
-        mov     [7:4],R0
-        mov     R0,0b0001       ; left nibble mask current row
-        mov     [6:4],R0
-        mov     R0,0b0100       ; right nibble mask current row
         mov     [5:4],R0
-        mov     R0,0b0001       ; left nibble mask above/below row
+        mov     R0,0b0001       ; left nibble mask
         mov     [4:4],R0
-        mov     R0,0b1100       ; right nibble mask above/below row
+        mov     R0,0b1100       ; right nibble mask
         mov     [3:4],R0
 
         ; column 3 masks
         mov     R0,0b0100       ; col bit-mask
-        mov     [7:3],R0
-        mov     R0,0b0000       ; left nibble mask current row
-        mov     [6:3],R0
-        mov     R0,0b1010       ; right nibble mask current row
         mov     [5:3],R0
-        mov     R0,0b0000       ; left nibble mask above/below row
+        mov     R0,0b0000       ; left nibble mask
         mov     [4:3],R0
-        mov     R0,0b1110       ; right nibble mask above/below row
+        mov     R0,0b1110       ; right nibble mask
         mov     [3:3],R0
 
         ; column 2 masks
         mov     R0,0b0010       ; col bit-mask
-        mov     [7:2],R0
-        mov     R0,0b0000       ; left nibble mask current row
-        mov     [6:2],R0
-        mov     R0,0b0101       ; right nibble mask current row
         mov     [5:2],R0
-        mov     R0,0b0000       ; left nibble mask above/below row
+        mov     R0,0b0000       ; left nibble mask
         mov     [4:2],R0
-        mov     R0,0b0111       ; right nibble mask above/below row
+        mov     R0,0b0111       ; right nibble mask
         mov     [3:2],R0
 
         ; column 1 masks
         mov     R0,0b0001       ; col bit-mask
-        mov     [7:1],R0
-        mov     R0,0b1000       ; left nibble mask current row
-        mov     [6:1],R0
-        mov     R0,0b0010       ; right nibble mask current row
         mov     [5:1],R0
-        mov     R0,0b1000       ; left nibble mask above/below row
+        mov     R0,0b1000       ; left nibble mask
         mov     [4:1],R0
-        mov     R0,0b0011       ; right nibble mask above/below row
+        mov     R0,0b0011       ; right nibble mask
         mov     [3:1],R0
 
 ; init subroutine
@@ -174,7 +140,7 @@ main:
 ;           ┌────┬────┬────┬────┐┌────┬────┬────┬────┐
 ;        E0 │ b3*│ b2*│ b1 │ b0 ││ b3 │ b2 │ b1 │ b0*│ E1           <-- above
 ;           ├────┼────┼────┼────┤├────┼────┼────┼────┤
-; (Left) E2 │ b3 │ b2*│ b1 │ b0 ││ b3 │ b2 │ b1 │ b0*│ E3 (Right)   <-- row
+; (Left) E2 │ b3*│ b2*│ b1 │ b0 ││ b3 │ b2 │ b1 │ b0*│ E3 (Right)   <-- row
 ;           ├────┼────┼────┼────┤├────┼────┼────┼────┤
 ;        E4 │ b3*│ b2*│ b1 │ b0 ││ b3 │ b2 │ b1 │ b0*│ E5           <-- below
 ;           └────┴────┴────┴────┘└────┴────┴────┴────┘
@@ -218,40 +184,30 @@ iter_row:
         mov     [0xE5],R0       ; move into E5
 
 iter_col:
-        ; apply left nibble mask based on col for current row
-        mov     R1,6            ; move 6 into R1
-        mov     R0,[R1:R2]      ; move left nibble mask into R0
-        mov     R1,R0           ; move left nibble mask into R1
-        mov     R0,[0xE2]       ; move E2 into R0
-        and     R0,R1           ; R0 <- R0 bitwise-and R1
-        mov     [0xE9],R0       ; move masked E2 nibble into E9
-
-        ; apply right nibble mask based on col for current row
-        mov     R1,5            ; move 5 into R1
-        mov     R0,[R1:R2]      ; move right nibble mask into R0
-        mov     R1,R0           ; move right nibble mask into R1
-        mov     R0,[0xE3]       ; move E3 into R0
-        and     R0,R1           ; R0 <- R0 bitwise-and R1
-        mov     [0xEA],R0       ; move masked E3 nibble into EA
-
-        ; apply left nibble mask based on col for above/below row
+        ; apply left nibble mask based on col for E0, E2, E4
         mov     R1,4            ; move 4 into R1
         mov     R0,[R1:R2]      ; move left nibble mask into R0
         mov     R1,R0           ; move left nibble mask from R0 to R1
         mov     R0,[0xE0]       ; move E0 into R0
         and     R0,R1           ; R0 <- R0 bitwise-and R1
         mov     [0xE7],R0       ; move masked E0 nibble into E7
+        mov     R0,[0xE2]       ; move E2 into R0
+        and     R0,R1           ; R0 <- R0 bitwise-and R1
+        mov     [0xE9],R0       ; move masked E2 nibble into E9
         mov     R0,[0xE4]       ; move E4 into R0
         and     R0,R1           ; R0 <- R0 bitwise-and R1
-        mov     [0xEB],R0       ; move masked E2 nibble into EB
+        mov     [0xEB],R0       ; move masked E4 nibble into EB
 
-        ; apply right nibble mask based on col for above/below row
+        ; apply right nibble mask based on col for E1, E3, E5
         mov     R1,3            ; move 3 into R1
         mov     R0,[R1:R2]      ; move right nibble mask into R0
         mov     R1,R0           ; move right nibble mask from R0 to R1
         mov     R0,[0xE1]       ; move E1 into R0
         and     R0,R1           ; R0 <- R0 bitwise-and R1
         mov     [0xE8],R0       ; move masked E1 nibble into E8
+        mov     R0,[0xE3]       ; move E3 into R0
+        and     R0,R1           ; R0 <- R0 bitwise-and R1
+        mov     [0xEA],R0       ; move masked E3 nibble into EA
         mov     R0,[0xE5]       ; move E5 into R0
         and     R0,R1           ; R0 <- R0 bitwise-and R1
         mov     [0xEC],R0       ; move masked E5 nibble into EC
@@ -323,31 +279,33 @@ iter_col:
         jr      1               ; skip next inst
         mov     R0,[R6:R5]      ; move page n+1 nibble into R0
         mov     R1,R0           ; move current nibble into R1
-        mov     R0,7            ; move 7 into R0
+        mov     R0,5            ; move 7 into R0
         mov     R0,[R0:R2]      ; move col bit-mask into R0
         and     R0,R1           ; R0 <- R0 bitwise-and R1
         mov     [0xEE],R0       ; move R0 into EE
 
-        ; given row, col, sum, and bit status, apply rules, set dest pages
+; egocentric rule #1: if all-field sum is 3, then next inner-field state is life
 rule1:
-        cp      R0,0            ; R0 - 0 (bit-status already in R0)
-        skip    NZ,2            ; if R0 > 0, then skip next inst
-        GOTO    rule2           ; else apply rule 2
-        mov     R0,[0xED]       ; move count into R0
-        cp      R0,4            ; R0 - 4
-        skip    NC,2            ; if R0 < 4, then skip next 2 inst
-        GOTO    clear_bit       ; else clear bit
-        cp      R0,2            ; R0 - 2
-        skip    C,2             ; if R0 >= 2, then skip next 2 inst
-        GOTO    clear_bit       ; else clear bit
-        GOTO    set_bit
-
-rule2:
         mov     R0,[0xED]       ; move count into R0
         cp      R0,3            ; R0 - 3
-        skip    Z,2             ; if R0 = 3, then skip next inst
+        skip    Z,2             ; if R0 = 3, then skip next 2 inst
+        GOTO    rule2           ; else goto rule2
+        GOTO    set_bit         ; set bit
+
+; egocentric rule #2: if all-field sum is 4, then inner-field state is constant
+rule2:
+        cp      R0,4            ; R0 - 4
+        skip    Z,2             ; if R0 = 4, then skip next 2 inst
+        GOTO    rule3           ; else goto rule3
+        mov     R0,[0xEE]       ; load bit-status
+        cp      R0,0            ; R0 - 0
+        skip    NZ,2            ; if R0 > 0, then skip next 2 inst
         GOTO    clear_bit       ; else clear bit
         GOTO    set_bit         ; set bit
+
+; egocentric rule #3; for every other sum, next inner-field state is death
+rule3:
+        GOTO    clear_bit
 
 set_bit:
         mov     R0,R2           ; move col reg into R0
@@ -359,7 +317,7 @@ set_bit:
 set_bit_pg0:
         mov     R0,[R9:R5]      ; move dest page n nibble into R0
         mov     R1,R0           ; move R0 into R1
-        mov     R0,7            ; move 7 into R0
+        mov     R0,5            ; move 5 into R0
         mov     R0,[R0:R2]      ; move col bit-mask into R0
         or      R0,R1           ; R0 <- R0 bitwise-or R1
         mov     [R9:R5],R0      ; move R0 into dest page n nibble
@@ -368,7 +326,7 @@ set_bit_pg0:
 set_bit_pg1:
         mov     R0,[R8:R5]      ; move dest page n+1 nibble into R0
         mov     R1,R0           ; move R0 into R1
-        mov     R0,7            ; move 7 into R0
+        mov     R0,5            ; move 5 into R0
         mov     R0,[R0:R2]      ; move col bit-mask into R0
         or      R0,R1           ; R0 <- R0 bitwise-or R1
         mov     [R8:R5],R0      ; move R0 into dest page n+1 nibble
@@ -384,7 +342,7 @@ clear_bit:
 clear_bit_pg0:
         mov     R0,[R9:R5]      ; move dest page n nibble into R0
         mov     R1,R0           ; move R0 into R1
-        mov     R0,7            ; move 7 into R0
+        mov     R0,5            ; move 5 into R0
         mov     R0,[R0:R2]      ; move col bit-mask into R0
         xor     R0,0xF          ; bitwise-compl of col bit-mask
         and     R0,R1           ; R0 <- R0 bitwise-and R1
@@ -394,7 +352,7 @@ clear_bit_pg0:
 clear_bit_pg1:
         mov     R0,[R8:R5]      ; move dest page n+1 nibble into R0
         mov     R1,R0           ; move R0 into R1
-        mov     R0,7            ; move 7 into R0
+        mov     R0,5            ; move 5 into R0
         mov     R0,[R0:R2]      ; move col bit-mask into R0
         xor     R0,0xF          ; bitwise-compl of col bit-mask
         and     R0,R1           ; R0 <- R0 bitwise-and R1
